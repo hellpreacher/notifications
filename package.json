@@ -3,7 +3,8 @@
     "version": "1.0.0",
     "description": "Company directory",
     "scripts": {
-        "start": "ts-node bin/www"
+        "start": "node bin/www.js",
+        "build": "tsc bin/www"
     },
     "author": "Siddharth Kainthola",
     "license": "ISC",
