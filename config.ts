@@ -19,5 +19,6 @@ export const config = {
     PORT: +process.env.PORT || 8080,
     logger,
     publicVapidKey: process.env.publicVapidKey,
-    privateVapidKey: process.env.privateVapidKey
+    privateVapidKey: process.env.privateVapidKey,
+    public_html: path.join(__dirname, 'public')
 }

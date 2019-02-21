@@ -43,11 +43,11 @@ export class Server implements IHttpServer {
     }
 
     // Start server
-    public start(): Application {
+    public start(static_path): Application {
         this.app = express();
 
         // Setting up static directory for serving files.
-        this.app.use(express.static('public'));
+        this.app.use(express.static(static_path));
 
         // Using middleware for parsing request body
         this.app.use(json());

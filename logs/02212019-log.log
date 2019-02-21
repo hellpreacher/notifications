@@ -1,0 +1,12 @@
+{ level: 'debug',
+  message: 'Configured Routes: POS : notification/subscribe',
+  label: 'Server',
+  timestamp: '2019-02-21T12:14:10.342Z' }
+{ level: 'debug',
+  message: 'Configured Routes: POS : notification/push',
+  label: 'Server',
+  timestamp: '2019-02-21T12:14:10.347Z' }
+{ level: 'info',
+  message: 'Server listening on http://localhost:8080',
+  label: 'Server',
+  timestamp: '2019-02-21T12:14:10.359Z' }
