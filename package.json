@@ -1,0 +1,25 @@
+{
+    "name": "redbook",
+    "version": "1.0.0",
+    "description": "Company directory",
+    "scripts": {
+        "start": "ts-node bin/www"
+    },
+    "author": "Siddharth Kainthola",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "cors": "^2.8.5",
+        "dotenv": "^6.2.0",
+        "express": "^4.16.4",
+        "moment": "^2.24.0",
+        "web-push": "^3.3.3",
+        "winston": "^3.2.1"
+    },
+    "devDependencies": {
+        "@types/express": "^4.16.1",
+        "nodemon": "^1.18.10",
+        "ts-node": "^8.0.2",
+        "typescript": "^3.3.3"
+    }
+}
