@@ -40,7 +40,7 @@ var config_1 = require("../../config");
 webpush.setVapidDetails('mailto:kainthola.siddharth@gmail.com', config_1.config.publicVapidKey, config_1.config.privateVapidKey);
 var PushNotificationController = /** @class */ (function () {
     function PushNotificationController() {
-        this.baseUrl = 'notification/';
+        this.baseUrl = '/api/notification/';
     }
     PushNotificationController.prototype.initialize = function (Noitfy) {
         // Subscribe to notification

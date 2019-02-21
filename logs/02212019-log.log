@@ -22,3 +22,15 @@
   message: 'Server listening on http://localhost:8080',
   label: 'Server',
   timestamp: '2019-02-21T12:22:48.160Z' }
+{ level: 'debug',
+  message: 'Configured Routes: POS : /api/notification/subscribe',
+  label: 'Server',
+  timestamp: '2019-02-21T12:28:31.848Z' }
+{ level: 'debug',
+  message: 'Configured Routes: POS : /api/notification/push',
+  label: 'Server',
+  timestamp: '2019-02-21T12:28:31.852Z' }
+{ level: 'info',
+  message: 'Server listening on http://localhost:8080',
+  label: 'Server',
+  timestamp: '2019-02-21T12:28:31.859Z' }

@@ -6,7 +6,7 @@ import { config } from "../../config";
 webpush.setVapidDetails('mailto:kainthola.siddharth@gmail.com', config.publicVapidKey, config.privateVapidKey);
 
 export class PushNotificationController {
-    private baseUrl: string = 'notification/';
+    private baseUrl: string = '/api/notification/';
     private subscription;
 
     initialize(Noitfy: IHttpServer) {
